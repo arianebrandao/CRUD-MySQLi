@@ -1,7 +1,5 @@
 <?php
 	/**
-	* CRUD MySQLi
-	*
 	* Funções genéricas de CRUD para PDO ou MySQLi
 	* @author Desconhecido
 	* Adaptado por Ariane Brandão
