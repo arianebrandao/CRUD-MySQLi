@@ -1,2 +1,8 @@
 # CRUD-MySQLi
-CRUD de MySQLi que eu uso.
+
+Funções genéricas de CRUD para PDO ou MySQLi que eu uso.
+
+## Chamadas
+
+
+## Retornos
