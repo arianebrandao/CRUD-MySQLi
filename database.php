@@ -28,6 +28,7 @@
 	* Ex DBUpdate('tabela',$arrayDados, "id = 1")
 	*/
 	function DBUpdate($table, array $data, $where = null, $insertId = false){
+		$data 	= DBEscape($data);
 		foreach ($data as $key => $value){
 			$fields[] = "{$key} = '{$value}'";
 		}
